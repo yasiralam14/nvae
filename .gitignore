@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch checkpoints & weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+dynamic_hvae_checkpoints/
+
+# Large data files
+*.parquet
+*.zip
+*.tar.gz
+*.tar
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Logs & experiment tracking
+wandb/
+*.log
+runs/
+outputs/
+artifacts/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
